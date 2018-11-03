@@ -24,9 +24,11 @@ library
   hs-source-dirs:      src
   exposed-modules:     Hintman
                        Prelude
+                       Server
 
   build-depends:       base-noprelude
                      , relude
+                     , servant-generic
 
   ghc-options:         -Wall
                        -Wincomplete-uni-patterns

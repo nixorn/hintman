@@ -1,6 +1,6 @@
 resolver: lts-12.14
 
-extra-deps: [base-noprelude-4.11.1.0]
+extra-deps: [base-noprelude-4.11.1.0, servant-0.14, servant-generic-0.1.0.3]
 
 ghc-options:
   "$locals": -fhide-source-paths
